@@ -8,7 +8,7 @@ const AppLayout = () => {
 
   const fetchUserData = async () => {
     try {
-      const userData = "Nitish";
+      const userData = "null";
       if (!userData) {
         navigate("/login");
       }

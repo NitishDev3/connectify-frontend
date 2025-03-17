@@ -29,7 +29,7 @@ const LoginSignup = () => {
   };
   return (
     <div>
-      <div className="border border-white w-[25vw] mx-auto mt-10">
+      <div className="border border-gray-500 w-[25vw] mx-auto mt-10">
         <div className="my-16 flex justify-center">
           <h1 className="text-3xl font-semibold">Connectify</h1>
         </div>
@@ -40,7 +40,7 @@ const LoginSignup = () => {
             name="email"
             id="email"
             placeholder="Email"
-            className="w-full block border rounded-md border-white p-[2px] my-2"
+            className="w-full block border rounded-md border-gray-500 p-[2px] my-2"
           />
           <input
             type="password"
@@ -48,7 +48,7 @@ const LoginSignup = () => {
             name="password"
             id="password"
             placeholder="Password"
-            className="w-full block border rounded-md border-white p-[2px] my-2"
+            className="w-full block border rounded-md border-gray-500 p-[2px] my-2"
           />
           {isSignUp && (
             <input
@@ -57,7 +57,7 @@ const LoginSignup = () => {
               name="name"
               id="name"
               placeholder="Full Name"
-              className="w-full block border rounded-md border-white p-[2px] my-2"
+              className="w-full block border rounded-md border-gray-500 p-[2px] my-2"
             />
           )}
           <button
@@ -71,7 +71,7 @@ const LoginSignup = () => {
           <p className="cursor-pointer">Forgot Password?</p>
         </div>
       </div>
-      <div className=" flex justify-center border border-white w-[25vw] mx-auto mt-10">
+      <div className=" flex justify-center border border-gray-500 w-[25vw] mx-auto mt-10">
         <p className="my-5">
           Don't have an account?{" "}
           <span

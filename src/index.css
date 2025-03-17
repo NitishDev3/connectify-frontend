@@ -3,8 +3,16 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  background-color: black;
+  color: white;
+}
 
-*{
-    background-color: black;
-    color: white;
+/* Add this to your global CSS file if not already present */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
 }

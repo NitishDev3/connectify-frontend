@@ -2,7 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AppLayout from "./components/AppLayout";
 import ErrorPage from "./exception_components/ErrorPage";
 import LoginSignup from "./components/LoginSignup";
-import Home from "./components/Home";
+import Home from "./components/home/Home";
 import { lazy, Suspense } from "react";
 import LoadingPage from "./exception_components/LoadingPage";
 
@@ -10,7 +10,7 @@ const Search = lazy(() => import("./components/Search"));
 const Reels = lazy(() => import("./components/Reels"));
 const Notifications = lazy(() => import("./components/Notifications"));
 const Message = lazy(() => import("./components/Message"));
-const Profile = lazy(() => import("./components/Profile"));
+const Profile = lazy(() => import("./components/profile/Profile"));
 // const Search = lazy(()=>{import("./components/Search")})
 
 function App() {
